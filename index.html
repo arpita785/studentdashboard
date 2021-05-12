@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student dash board</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <h3>STUDENT <span>DASHBOARD</span></h3>
+      </div>
+     
+    </header>
+    <!--header area end-->
+    <!--mobile navigation bar start-->
+    <div class="mobile_nav">
+      <div class="nav_bar">
+        <img src="1.png" class="mobile_profile_image" alt="">
+        <i class="fa fa-bars nav_btn"></i>
+      </div>
+      <div class="mobile_nav_items">
+        <a href="home.html"><i class="fas fa-desktop"></i><span>HOME</span></a>
+        <a href="login.html"><i class="fas fa-user-plus"></i><span>Sign-in</span></a>
+        <a href="index.html"><i class="fas fa-user"></i><span>Profile</span></a>
+        <a href="info.html"><i class="fas fa-edit"></i><span>Forms</span></a>
+        
+        
+      </div>
+    </div>
+    <!--mobile navigation bar end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      
+      <a href="home.html"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+	  <a href="login.html"><i class="fas fa-user-plus"></i><span>Sign-in</span></a>
+      <a href="index.html"><i class="fas fa-user"></i><span>Profile</span></a>
+      
+      <a href="info.html"><i class="fas fa-edit"></i><span>Forms</span></a>
+      
+     
+    </div>
+    <!--sidebar end-->
+
+<h1>STUDENT PROFILE</h1>
+<center><br><br><br><br><br><br><br>
+ <div class="label">
+                        SET YOUR PROFILE PICTURE
+                     </div>
+<form action="info.html">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div class="field">
+
+                     <div class="label">
+                        Student Name
+                     </div>
+                     <input type="text" required>
+                  </div>
+				  
+<div class="profile-pic-div">
+  <img src="image.jpg" id="photo">
+  <input type="file" id="file">
+  <label for="file" id="uploadBtn">Choose Photo</label>
+</div>
+
+<br><br>
+
+				   <div class="field">
+                     <button class="firstNext next">Submit</button>
+                  </div>
+</form>
+</center>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
